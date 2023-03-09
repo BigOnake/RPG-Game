@@ -26,7 +26,7 @@ int main()
 	std::cin.ignore();
 	startFight(player1);
 
-	std::cout << "Training is finished!" << std::endl;
+	std::cout << "Training is finished! Go on!" << std::endl;
 	std::cin.ignore();
 
 	return 0;
