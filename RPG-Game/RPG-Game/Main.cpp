@@ -21,8 +21,8 @@ int main()
 	createFirstChar(player1);
 
 	// TRAINING FIGHT
-	std::cout << "Let's have a practice! Get ready to fight!" << std::endl << std::endl;
-	std::cout << "Press any button to continue...\t";
+	std::cout << "Let's have a practice! Get ready to fight!" << std::endl;
+	std::cout << "Press any button to continue..." << std::endl;
 	std::cin.ignore();
 	startFight(player1);
 
@@ -78,8 +78,6 @@ void startFight(Players& player1)
 	Mob mob(3);
 
 	std::cout << "Fight with " << mob.dispMobType << std::endl;
-	std::cout << "Player hp: " << player1.dispHP << "| Mob hp: " << mob.dispHP << std::endl;
-	std::cin.ignore();
 
 	while (player1.dispIsAlive && mob.dispIsAlive)
 	{
